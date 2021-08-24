@@ -1,0 +1,267 @@
+*{
+  margin: 0 0;
+  padding: 0 0;
+}
+#nav{
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 10px;
+}
+.search{
+  margin-left:200px;
+margin-right: 70px;
+border-radius: 10px;
+outline: none;
+background-color: black;
+color: white;
+border:none;
+font-size: 1.2rem;
+padding: 5px;
+  }
+  
+  .rc{
+    display: inline-block;
+    height: 300px;
+  border-top-right-radius:50% ;
+  border-bottom-right-radius:50% ;
+  width: 55%;
+  background-image: url('7.jpg');
+  background-clip: content-box;
+  background-size:contain;
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  
+
+}
+/* .lc{
+  display: inline-block;
+  height: 300px;
+  width: 40%;
+  margin-left: 10px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 2rem;
+} */
+.lc{
+  border: 2px solid black;
+}
+p{
+  float: right;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.div{
+  display: inline-block;
+  height: 300px;
+  width: 42%;
+/* border: 2px solid black; */
+text-align: center;
+}
+
+#banner{
+  background-color: orangered;
+  /* height: 300px; */
+  height: 100%;
+  margin-top: 56px;
+}
+
+#banner p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.click{
+  cursor: pointer;
+}
+
+#banner2{
+  background-color: orangered;
+  /* height: 300px; */
+  height: 100%;
+  margin-top: 56px;
+}
+
+#banner2 p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.login{
+  margin: 0;
+}
+#contactpage{
+  background-color: chocolate	;
+  text-align: center;
+  height: 100vh;
+  margin-top: 56px;
+}
+.formsubmitbutton{
+  padding: 5px 10px;
+border-radius: 10px;
+border: 2px solid white;
+background-color: #0096FF;
+font-weight: 650;
+font-size: 1.5rem;
+color: white;
+}
+
+.formdetail{
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid black;
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 60%;
+  margin: 5px;
+}
+
+.message{
+  resize: none;
+  height: 250px;
+}
+label{
+  font-size: 1.5rem;
+}
+
+#aboutuspage{
+  margin-top: 56px;
+  text-align: center;
+  background-color: chocolate;
+  height: 100vh;
+}
+
+#ourproducts{
+  margin-top: 56px;
+  background-color: chocolate;
+  height: 100%;
+}
+
+.off{
+  width:100%;
+  margin-top: 0;
+  height: 10%;
+}
+#off{
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+}
+
+#off2{
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+}
+video{
+  margin-top: 50px;
+}
+
+#loginbox,#otpbox,#loggedin {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  height: 300px;
+  width:400px;
+  margin-top: 56px;
+  top: 21%;
+  bottom: 25%;
+  background-color: white;
+  right: 25%;
+  left: 36%;
+  border: 2px solid black;
+}
+#loginbox p,#otpbox p{
+  font-size: 1.5rem;
+  
+}
+#loginmail,#otp{
+  position: absolute;
+  top: 60%;
+  padding: 8px;
+  font-size: 1rem;
+  outline: none;
+  text-align: center;
+  width: 80%;
+  border-right: none;
+  margin-left: 2px;
+}
+
+#logsub,#otpsub{
+  background-color: lightgreen;
+  width: 19%;
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  padding: 8px;
+  text-align: center;
+  color: black;
+  top: 60%;
+  float: right;
+ margin-right: 2px;
+  border-left: none;
+}
+
+.cross{
+  position: absolute;
+  width: 40px;
+  background-color: white;
+  border: none;
+  color: red;
+  right: 0;
+}
+
+#error{
+  color: red;
+}
+
+#resend{
+  position: absolute;
+  background-color: white;
+  border:none;
+  color: blue;
+  bottom: 2%;
+  left: 40%;
+}
+ul{
+  display: inline;
+}
+li{
+  display: inline;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: 700;
+  font-size: 1.5rem
+  }
+
+  #heading{
+    font-size: 4rem;
+    color: black;
+    
+  }
+
+.Link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Link:visited{
+  text-decoration: none;
+  color: black;
+}
+
+
+.download{
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  margin:20px;
+  font-weight: 900;
+}
